@@ -1,0 +1,15 @@
+##User requirements 
+Software requirements and hard requirements comes under requirement specific.
+
+##Software requirements
+ Python 3.6 or above 
+ Anaconda 
+ Spyder 
+ Datasets 
+ Windows or ubuntu os
+ 
+ ##Hardware requirements
+ Processor : intel core i5 or above 
+ Memory : 4 GB RAM 
+ Input devices: keyboard, Mouse, Camera, Raspberry pi 
+ Output devices: Monitor, Alarm 
