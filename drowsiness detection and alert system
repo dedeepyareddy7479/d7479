@@ -1,0 +1,42 @@
+##abstract
+Drowsy driving is one of the major causes behind fatal road accidents. One of 
+the recent studies shows that one out of five road accidents are caused by 
+drowsy driving which is roughly around 21% of road accidents. Real-time driver 
+drowsiness detection system for driving safety is based on computer vision 
+techniques, the driver’s face is located from a colour video captured in a car. 
+Then, face detection is employed to locate the regions of the driver’s eyes, 
+which are used as the templates for eye tracking in subsequent frames. Finally, 
+the tracked eye’s images are used for drowsiness detection in order to generate 
+warning alarms. The proposed approach has three phases: Face, Eye detection 
+and drowsiness detection. The role of image processing is to recognize the face 
+of the driver and then extracts the image of the eyes of the driver for detection 
+of drowsiness. If the eyes are closed for a predefined period of time the eyes of 
+the driver will be considered closed and hence an alarm will be started to alert 
+the driver. So, in the above approach driver will get alerted and it will help to 
+reduce the percent of accidents caused due to drowsiness.
+
+##problem definition
+Fatigue is a safety problem that has not yet been deeply tackled by any 
+country in the world mainly because of its nature. Fatigue, in general, is
+very difficult to measure or observe unlike alcohol and drugs, which have
+clear key indicators and tests that are available easily. Probably, the best
+solutions to this problem are awareness about fatigue-related accidents
+and promoting drivers to admit fatigue when needed. The former is hard
+and much more expensive to achieve, and the latter is not possible without 
+the former as driving for long hours is very lucrative.
+
+##objective of project
+The objective of this intermediate Python project is to build a drowsiness detection 
+system that will detect that a person’s eyes are closed for a few seconds. This 
+system will alert the driver when drowsiness is detected. Drowsiness detection is a 
+safety technology that can prevent accidents that are caused by drivers who fell 
+asleep while driving.
+
+##limitations
+limitation to using subjective ratings is that the self-introspection alerts the driver, 
+thereby reducing their drowsiness level. In addition, it is difficult to obtain 
+drowsiness feedback from a driver in a real driving situation. Therefore, while 
+subjective ratings are useful in determining drowsiness in a simulated 
+environment, the remaining measures like vehicle lane monitoring, steering wheel 
+alignment may be better suited for the detection of drowsiness in a real 
+environment.
