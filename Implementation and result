@@ -1,0 +1,29 @@
+Implementation is one of the phases of the Software Development life 
+Cycle. The implementation phase of software development involves 
+translation of design specifications source code and debugging, 
+documentation and unit testing of the source code. 
+Majority of symptoms of driver fatigue will be reflected through eyes. 
+Based on the symptoms related to face and eye region it is detected 
+whether person is drowsy or not. 
+In our proposed system, we focus mainly on eye localization. 
+Detection process has four steps:
+1. Face detection 
+2. Eye detection 
+3. Iris detection 
+4. Drowsiness Detection
+
+##Explanation of Key functions 
+Python: Python is the basis of the program that we wrote. It utilizes many of the python libraries. 
+ Libraries: 
+1. NumPy: Pre-requisite for Dlib 
+2.SciPy: Used for calculating Euclidean distance between the 
+eyelids. 
+3. Playsound: Used for sounding the alarm 
+4.Dlib: This program is used to find the frontal human face and 
+estimate its pose using 68 face landmarks 
+5.Imutils: Convenient functions written for Opencv.
+6. Opencv: Used to get the video stream from the webcam, etc. 
+ OS: Program is tested on Windows 10 build 1903 and PopOS 
+7.Laptop: Used to run our code. 
+8. Webcam: Used to get the video feed
+
